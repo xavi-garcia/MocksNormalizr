@@ -1,0 +1,45 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.productCard{
+    max-width: 200px;
+    margin: 15px;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 10px;
+    border-style: ridge;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.productCard > img{
+    width: 130px;
+    height: 130px;
+}
+
+.cardContainer{
+    padding-top:15px;
+    margin-top: 15px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: aliceblue;
+}
+
+.container-chat{
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    position:absolute;
+    bottom: 23px;
+    right: 28px;
+    width: 350px;
+}
+
+#log{
+    border-color: #ccc;
+    background-color: #ddd;
+}
